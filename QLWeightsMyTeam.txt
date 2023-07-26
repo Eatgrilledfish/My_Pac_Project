@@ -1,0 +1,31 @@
+{
+    'offensiveWeights': {
+        'closest-food': -69.23206445189587,
+        'bias': -26.593570411700416,
+        '#-of-ghosts-1-step-away': -8.179959069618443,
+        'successorScore': 28.044486285577044,
+        'stop': 0.01585392208029396,
+        'chance-return-food': 45.930031644416246,
+        'depositFood': 89.91953977913874,
+        'eats-ghost': 0.9054075832911208,
+        'enemyscared': 26.309370322774168,
+        'distance-to-enemyscared': -28.819302342065594,
+        'closest-capsule': -7.26705307545401
+    },
+    'defensiveWeights': {
+        'onDefense': -20.625694922126886,
+        'distance_to_middlle': -267.74079755550525,
+        'numInvaders': -10.09488135165112,
+        'invaderDistance': -152.510650923526605,
+        'stop': -25.402700611111896,
+        'reverse': -18.605275701574566,
+        'distaToInvader_noisyDist': -250.29566210941928
+    },
+    'escapeWeights': {
+        'onDefense': 44.358274346154914,
+        'enemyDistance': 30.474666124856483,
+        'stop': -100,
+        'carrying': 10.0,
+        'distanceToHome': 28.237126757645846
+    }
+}
